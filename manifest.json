@@ -1,0 +1,11 @@
+{
+    "content_scripts": [
+      {
+        "js": ["liu.js"],
+        "matches": ["https://syslb.liu.edu.lb/login/*"]
+      }
+    ],
+    "manifest_version": 3,
+    "name": "liu",
+    "version": "1.0.0"
+  }
