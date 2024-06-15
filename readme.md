@@ -1,7 +1,7 @@
 # LiuLoginFix
 
 ## Description
-Custom extension to fix and enhance the university login form at Liu University. Implements localStorage functionality for the 'Remember me' feature and automatic login.
+Custom extension to fix and enhance the university login form at [Liu University](https://liu.edu.lb/). Implements localStorage functionality for the 'Remember me' feature and automatic login.
 
 ## Features
 - Autofill credentials from localStorage
