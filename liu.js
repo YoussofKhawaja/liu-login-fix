@@ -29,6 +29,11 @@ var div = document.createElement('div');
 div.className = 'container mt-5';
 body.appendChild(div);
 
+var header = document.createElement('h1');
+header.innerHTML = 'LIU Login Form';
+header.className = 'mb-4';
+div.appendChild(header);
+
 // Create form element
 var form = document.createElement('form');
 form.id = 'myForm';
@@ -111,6 +116,13 @@ submitButton.type = 'submit';
 submitButton.className = 'btn btn-primary';
 submitButton.innerHTML = 'Login';
 form.appendChild(submitButton);
+
+// Forgot Password link
+var forgotPasswordLink = document.createElement('a');
+forgotPasswordLink.href = 'https://syslb.liu.edu.lb/login/resetStdPassword.php';
+forgotPasswordLink.className = 'd-block mt-3';
+forgotPasswordLink.innerHTML = 'Forgot Password?';
+div.appendChild(forgotPasswordLink);
 
 window.onload = function () {
     if (localStorage.getItem('rememberMe') === 'true') {

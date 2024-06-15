@@ -2,7 +2,7 @@
     "content_scripts": [
       {
         "js": ["liu.js"],
-        "matches": ["https://syslb.liu.edu.lb/login/*"]
+        "matches": ["https://syslb.liu.edu.lb/login/"]
       }
     ],
     "manifest_version": 3,
