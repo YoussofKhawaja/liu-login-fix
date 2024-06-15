@@ -11,4 +11,4 @@ Custom extension to fix and enhance the university login form at Liu University.
 ## Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/youssofkhawaja/LiuLoginFix.git
+   git clone https://github.com/YoussofKhawaja/liu-login-fix
