@@ -22,10 +22,6 @@ Custom extension to fix and enhance the university login form at Liu University.
     - Click the "Load unpacked" button.
     - Select the directory where `liu.js` and other files are located. This will load your extension into Chrome.
 
-4. **Test Your Extension**
-    - Navigate to a login page that matches the one you are targeting.
-    - Ensure the extension is functioning correctly.
-
 ## Usage
 1. Clone the repository:
    ```bash
